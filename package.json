@@ -1,0 +1,42 @@
+{
+  "name": "sveather",
+  "version": "1.0.1",
+  "description": "Feather Icons as Svelte Components",
+  "keywords": [
+    "feather",
+    "icons",
+    "svelte"
+  ],
+  "license": "MIT",
+  "author": "theurgi <x@theurgi.xyz> (https://theurgi.xyz/)",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "svelte": "./dist/components/index.js",
+  "types": "./dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theurgi/sveather"
+  },
+  "scripts": {
+    "build": "node ./src/build.js",
+    "postbuild": "prettier --write . --loglevel silent",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@theurgi/prettier-config": "^3.0.0",
+    "feather-icons": "^4.28.0",
+    "pascalcase": "^1.0.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "svelte": "^3.37.0"
+  },
+  "peerDependencies": {
+    "svelte": "^3.37.0"
+  },
+  "engines": {
+    "node": ">= 14.14.0"
+  },
+  "prettier": "@theurgi/prettier-config"
+}

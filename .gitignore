@@ -1,0 +1,4 @@
+.DS_Store
+node_modules
+dist/components
+dist/types/index.d.ts
