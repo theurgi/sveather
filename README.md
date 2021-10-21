@@ -1,3 +1,5 @@
+> ⚠️ This package has been archived because you should use [antfu/unplugin-icons](https://github.com/antfu/unplugin-icons) for all your icon needs.
+
 # sveather
 
 The complete library of [Feather icons](https://feathericons.com/) as uncompiled Svelte components.
